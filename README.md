@@ -31,3 +31,25 @@ rc.local is a file that runs on start. It calls alwaysdisplay.sh. These take car
 does not go to sleep. rc.local is in /etc/ directory.
 Set the path to alwaysdisplay.sh well.
 
+crontab.txt includes the line you should add using crontab -e.
+It calls the script eachminute.pl.
+
+eachminute.pl draws an image, records the time and calls the showtime executable to display it.
+The script displays the big ben each half hour, you can change it so it always draws one of your 
+images, as you want.
+
+In the bin directory you have the source and Makefile for the showtime executable.
+the executable gets the path to the image and the time.
+Using OpenCV it reads the image and draws on it the time (only in the display, does not destroy
+the original).
+
+Have a look at the directories of the eachminute.pl script and change it accordingly.
+
+I recommmend that the images are in .jpg format.
+
+I use this clock together with this: http://www.instructables.com/id/Raspberry-Pi-Big-Ben-Clock/
+
+Good luck!
+Enjoy!
+
+U
