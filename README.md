@@ -50,7 +50,7 @@ I recommmend that the images are in .jpg format.
 I use this clock together with this: http://www.instructables.com/id/Raspberry-Pi-Big-Ben-Clock/
 
 I could not have accomplished this project without this great book:
-https://cse.sc.edu/~jbakos/textbook.html
+https://cse.sc.edu/~jbakos/textbook/
 Embedded Systems:
 ARM Programming and Optimization
 By Prof. Jason D. Bakos.
