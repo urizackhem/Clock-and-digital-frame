@@ -10,20 +10,19 @@ this is the code for creating a clock made of raspberry pi and display, every mi
 
 HW:
 ---
-* Rpi 2B
-* WiFi dongle
+* Rpi 2B (or rpi3, but I have not tested this option).
+* WiFi dongle (WiPi. Trying to install a wifi dongle with "linux" on the box broke my heart. If it's a rpi 3 you don't need it).
 * Micro SD
 * Power adaptor
 * 7" LCD acreen + case, https://www.talmir.co.il/product/23867.htm
 
-I used a RPI 2 but RPI 3 may do as well and then you don't need the wifi dongle.
 The micro SD is for the RPI. Then you'll load the project etc.
 
 3rd party:
 ----------
 Have Make installed.
 Install opencv http://www.pyimagesearch.com/2016/04/18/install-guide-raspberry-pi-3-raspbian-jessie-opencv-3/
-Skip the virtual env/wrapper bit.
+*Skip* the virtual env/wrapper bit.
 
 The code:
 ---------
